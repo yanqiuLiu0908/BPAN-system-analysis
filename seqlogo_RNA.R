@@ -8,8 +8,7 @@ library(seqinr)
 library(Biostrings)
 library(patchwork)
 
-setwd("/home/yanqiuLiu/project/RIP_Pull_down/2.stats")
-getwd()
+
 #Read data, data remove sequence name
 seq1 <- read.table('all/seqlogo/sAG_seqkit15_subseq15.fa',header = F)
 seq2 <- read.table('all/seqlogo/sAO_seqkit15_subseq15.fa',header = F)
